@@ -2,5 +2,9 @@ const shop = require("./pizzaOrder");
 
 const mcShop = new shop();
 
-mcShop.order();
+mcShop.orderNumber("order", (size, topping) => {
+  console.log(`Order received! Baking a ${size} pizza with ${topping}`);
+});
+
+mcShop.order("large", "mushrooms");
 mcShop.displayOrderNumber();
