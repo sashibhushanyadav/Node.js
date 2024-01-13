@@ -8,4 +8,5 @@ mcShop.orderNumber("order", (size, topping) => {
 
 mcShop.order("small", "doublecheese");
 mcShop.displayOrderNumber();
+mcShop.displayOrderNumber();
 
