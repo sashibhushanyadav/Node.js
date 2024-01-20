@@ -1,11 +1,11 @@
-const events = require("node:events");
-class pizzaShop extends events {
+const EventEmitter = require("node:events");
+class pizzaShop extends EventEmitter {
   constructor() {
     super();
     this.orderNumber = 0;
   }
 
-  order() {
+  order(size, topping) {
     this.orderNumber++;
     this.emit("order", size, topping);
   }
