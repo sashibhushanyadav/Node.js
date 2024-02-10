@@ -16,9 +16,12 @@
 
 // // JAVASCRIPT RUNTIME
 // JavaScript runtime is an environment which provides all the necessary components in order to use and run a JavaScript engine.
-// The components of JavaScript runtime are 
-// -js engine(like V8 which contains memory heap & call stack), 
-// -web APIs (DOM, Storage, Timers), 
+// The components of JavaScript runtime are
+// -js engine(like V8 which contains memory heap & call stack),
+// -web APIs (DOM, Storage, Timers),
 // -Event loop (CallBack/Task Queue, Microtask Queue)
 
-// // 
+// // Node Js contains folders like:-
+// -Dependencies (V8, Zlip, libuv, crypto etc.)
+// -Src (c/c++ features)
+// -lib/js library (fs.js etc)
