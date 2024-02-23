@@ -6,5 +6,5 @@ function greeting(name) {
   console.log(lowerCase(`Hey there! My name is ${name}`));
   console.log(upperCase(`Hey there! My name is ${name}`));
 }
-greeting("Sashi");
+
 module.exports = greeting;
