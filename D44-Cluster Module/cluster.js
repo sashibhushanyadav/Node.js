@@ -2,6 +2,10 @@ const cluster = require("cluster");
 const http = require("node:http");
 const OS = require("node:os");
 
+// NOTE:
+// we have studied 3 ways to execute the server parallelly.
+// They are cluster, pm2 and worker threads.
+ 
 console.log(OS.cpus().length);
 
 if (cluster.isMaster) {
